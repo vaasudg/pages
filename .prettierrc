@@ -1,0 +1,60 @@
+{
+  "semi": false,
+  "trailingComma": "none",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 120,
+  "arrowParens": "avoid",
+  "parser": "typescript",
+  "endOfLine": "auto",
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "options": {
+        "parser": "typescript",
+        "singleQuote": true,
+        "semi": false
+      }
+    },
+    {
+      "files": ["*.json", ".*.json", "*.code-snippets", "*.webmanifest"],
+      "options": {
+        "parser": "json",
+        "printWidth": 80
+      }
+    },
+    {
+      "files": ["*.md", "LICENSE"],
+      "options": {
+        "parser": "markdown"
+      }
+    },
+    {
+      "files": "*.scss",
+      "options": {
+        "parser": "scss"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "angular"
+      }
+    },
+    {
+      "files": ["*.yml", "*.yaml", ".*.yml", ".*.toml"],
+      "options": {
+        "parser": "yaml"
+      }
+    }
+  ]
+}

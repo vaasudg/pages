@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "node_modules/": true
+  },
+  "editor.fontSize": 12,
+  "files.autoSave": "off",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Light+",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.configPath": "./.prettierrc",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSurroundingLinesStyle": "all",
+  "editor.dragAndDrop": false,
+  "editor.formatOnPaste": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.autoClosingTags": true
+}
