@@ -3,9 +3,9 @@
     "target": "ES2015",
     "module": "CommonJS",
     "lib": ["DOM", "ES2015"],
-    "baseUrl": ".",
+    // "baseUrl": ".",
     "outDir": "./build",
-    "rootDir": "src",
+    // "rootDir": "src",
     "strict": true,
     "noImplicitAny": true,
     "noUnusedLocals": false,
@@ -20,8 +20,8 @@
     "pretty": true,
     "resolveJsonModule": true,
     "paths": {
-      "@/utils/*": ["src/utils/*"],
-      "@/features/*": ["src/features/*"]
+      // "@/utils/*": ["src/utils/*"],
+      // "@/features/*": ["src/features/*"]
     }
   }
 }

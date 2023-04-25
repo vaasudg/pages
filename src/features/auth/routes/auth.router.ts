@@ -1,4 +1,5 @@
 import express, { Router } from 'express'
+import { Register } from '../controllers/auth.controller'
 
 class AuthRouter {
     private router: Router
@@ -7,9 +8,7 @@ class AuthRouter {
     }
 
     public route(): Router {
-        this.router.post('/register', (req, res) => {
-            res.send('Register')
-        })
+        this.router.post('/register', Register.prototype.create)
 
         return this.router
     }

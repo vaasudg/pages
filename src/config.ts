@@ -15,6 +15,7 @@ class Config {
   public CLOUD_NAME: string | undefined
   public CLOUD_API_KEY: string | undefined
   public CLOUD_API_SECRET: string | undefined
+  public REDIS_URI: string | undefined
 
   constructor() {
     this.NODE_ENV = process.env.NODE_ENV || ''
@@ -27,6 +28,7 @@ class Config {
     this.CLOUD_NAME = process.env.CLOUD_NAME || ''
     this.CLOUD_API_KEY = process.env.CLOUD_API_KEY || ''
     this.CLOUD_API_SECRET = process.env.CLOUD_API_SECRET || ''
+    this.REDIS_URI = process.env.REDIS_URI || ''
   }
 
   public validation(): void {

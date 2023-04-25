@@ -26,3 +26,5 @@ export class Logs {
 }
 
 export const BASE_ROUTER = (router: string): string => `/api/${router}/v1`
+
+export const SALT_ROUND = 10
